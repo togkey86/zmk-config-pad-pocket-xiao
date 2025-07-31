@@ -20,4 +20,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: two_percent_milk
+    shield: pad_pocket
+    snippet: studio-rpc-usb-uart
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
