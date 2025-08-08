@@ -99,7 +99,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <275>;
-            bindings = <&kp RIGHT_ARROW>, <&kp UP_ARROW>, <&kp C_MENU_ESCAPE>;
+            bindings = <&kp RIGHT_ARROW>, <&kp UP_ARROW>, <&kp ESC>;
             display-name = "Page Turner Controls Right";
         };
 
@@ -119,7 +119,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <1000>;
-            bindings = <&go_to_default_layer>, <&bluetooth_profile_select_0>;
+            bindings = <&go_to_default_layer>, <&none>;
             display-name = "Hold-Tap To Default Layer + Bluetooth 0";
         };
 
