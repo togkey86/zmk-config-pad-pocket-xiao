@@ -74,7 +74,7 @@
         td0: media_controls_left {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <250>;
             bindings = <&kp C_VOLUME_DOWN>, <&kp C_PREVIOUS>, <&go_to_bluetooth_layer>;
             display-name = "Media Controls Left";
         };
@@ -82,7 +82,7 @@
         td1: media_controls_right {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <250>;
             bindings = <&kp C_VOLUME_UP>, <&kp C_NEXT>, <&kp C_PLAY_PAUSE>;
             display-name = "Media Controls Right";
         };
@@ -90,7 +90,7 @@
         td2: page_turner_controls_left {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <250>;
             bindings = <&kp LEFT_ARROW>, <&kp DOWN_ARROW>, <&go_to_bluetooth_layer>;
             display-name = "Page Turner Controls Left";
         };
@@ -98,7 +98,7 @@
         td3: page_turner_controls_right {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <250>;
             bindings = <&kp RIGHT_ARROW>, <&kp UP_ARROW>, <&kp ESC>;
             display-name = "Page Turner Controls Right";
         };
