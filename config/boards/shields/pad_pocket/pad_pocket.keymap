@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 5
+
 / {
      macros {
         go_to_bluetooth_layer: go_to_bluetooth_layer {
