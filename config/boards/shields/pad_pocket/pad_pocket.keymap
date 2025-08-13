@@ -114,15 +114,15 @@
         td4: scroll_controls_left {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&msc SCRL_UP>, <&double_click>, <&go_to_bluetooth_layer>;
+            tapping-term-ms = <250>;
+            bindings = <&msc SCRL_UP>, <&mkp MB1>, <&go_to_bluetooth_layer>;
             display-name = "Scroll Controls Left";
         };
 
         td5: scroll_controls_right {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             bindings = <&msc SCRL_DOWN>, <&double_click>, <&none>;
             display-name = "Scroll Controls Right";
         };
