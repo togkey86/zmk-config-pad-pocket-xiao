@@ -19,6 +19,12 @@
             #binding-cells = <0>;
             bindings = <&macro_press &to 0>, <&macro_press &rgb_ug RGB_EFR>, <&macro_press &rgb_ug RGB_COLOR_HSB(205, 0, 25)>; 
         };
+        
+        single_click: single_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &mkp MB1>, <&macro_wait_time 200>, <&macro_release &mkp MB1>; 
+        };
 
         double_click: double_click {
             compatible = "zmk,behavior-macro";
