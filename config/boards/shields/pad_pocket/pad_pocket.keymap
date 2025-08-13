@@ -108,16 +108,16 @@
         td4: scroll_controls_left {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_LEFT>, <&go_to_bluetooth_layer>;
+            tapping-term-ms = <200>;
+            bindings = <&msc SCRL_UP>, <&none>, <&go_to_bluetooth_layer>;
             display-name = "Scroll Controls Left";
         };
 
         td5: scroll_controls_right {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_RIGHT>, <&none>;
+            tapping-term-ms = <200>;
+            bindings = <&msc SCRL_DOWN>, <&none>, <&none>;
             display-name = "Scroll Controls Right";
         };
 
