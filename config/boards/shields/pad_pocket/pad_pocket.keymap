@@ -19,12 +19,6 @@
             #binding-cells = <0>;
             bindings = <&macro_press &to 0>, <&macro_press &rgb_ug RGB_EFR>, <&macro_press &rgb_ug RGB_COLOR_HSB(205, 0, 25)>; 
         };
-        
-        single_click: single_click {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &mkp MB1>, <&macro_release &mkp MB1>, <&macro_press &mkp MB1>, <&macro_release &mkp MB1>; 
-        };
 
         double_click: double_click {
             compatible = "zmk,behavior-macro";
@@ -121,7 +115,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&msc SCRL_UP>, <&single_click>, <&go_to_bluetooth_layer>;
+            bindings = <&msc SCRL_UP>, <&kp C_PLAY_PAUSE>, <&go_to_bluetooth_layer>;
             display-name = "Scroll Controls Left";
         };
 
