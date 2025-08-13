@@ -23,7 +23,7 @@
         single_click: single_click {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &mkp MB1>, <&macro_wait_time 300>, <&macro_release &mkp MB1>; 
+            bindings = <&macro_press &mkp MB1>, <&macro_wait_time 200>, <&macro_release &mkp MB1>, <&macro_press &mkp MB1>, <&macro_release &mkp MB1>; 
         };
 
         double_click: double_click {
