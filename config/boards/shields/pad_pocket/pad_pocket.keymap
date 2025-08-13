@@ -121,7 +121,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&msc SCRL_UP>, <&mkp MB1>, <&go_to_bluetooth_layer>;
+            bindings = <&msc SCRL_UP>, <&single_click>, <&go_to_bluetooth_layer>;
             display-name = "Scroll Controls Left";
         };
 
