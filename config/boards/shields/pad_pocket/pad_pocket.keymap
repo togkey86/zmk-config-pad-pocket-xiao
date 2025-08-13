@@ -17,13 +17,13 @@
         go_to_default_layer: go_to_default_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp LCLK>, <&macro_wait_time 10>, <&mkp LCLK>>; 
+            bindings = <&macro_press &to 0>, <&macro_press &rgb_ug RGB_EFR>, <&macro_press &rgb_ug RGB_COLOR_HSB(205, 0, 25)>; 
         };
 
         double_click: double_click {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &to 0>, <&macro_press &rgb_ug RGB_EFR>, <&macro_press &rgb_ug RGB_COLOR_HSB(205, 0, 25)>; 
+            bindings = <&macro_press &mkp LCLK>, <&macro_wait_time 10>, <&macro_press &mkp LCLK>; 
         };
 
         bluetooth_profile_clear: bluetooth_profile_clear {
