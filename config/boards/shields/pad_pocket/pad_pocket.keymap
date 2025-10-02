@@ -127,7 +127,7 @@
             display-name = "Scroll Controls Right";
         };
 
-        td5: custom_right {
+        td6: custom_right {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
