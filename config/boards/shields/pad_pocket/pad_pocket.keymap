@@ -132,7 +132,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&kp SPACE>, <&none>, <&go_to_bluetooth_layer>;
-            display-name = "Scroll Controls Right";
+            display-name = "Spacebar Custom Left";
         };
 
         my_mt: bluetooth_layer {
